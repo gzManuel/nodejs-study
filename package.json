@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-study",
+  "version": "0.0.1",
+  "description": "Repository to study the different subjects of node",
+  "main": "src/index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "npm run start --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzManuel/nodejs-study.git"
+  },
+  "author": "Manuel Garisto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzManuel/nodejs-study/issues"
+  },
+  "homepage": "https://github.com/gzManuel/nodejs-study#readme",
+  "dependencies": {
+  }
+}
